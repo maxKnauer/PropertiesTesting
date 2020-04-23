@@ -1,0 +1,71 @@
+/* Login Window */
+@font-face {
+    src: url('/sample/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
+.gridRoot{
+    -fx-background-color: #edeef2;
+    -fx-alignment: center;
+    -fx-hgap: 10;
+    -fx-vgap: 15;
+    -fx-padding: 5 30 10 30;
+}
+.jfxtxt{
+    -jfx-unfocus-color: #18146a;
+    -jfx-focus-color: #B0BBc9;
+    -fx-prompt-text-fill: #B0BBc9;
+    -fx-pref-width: 250;
+    -fx-font-family: "Quicksand-Light";
+}
+
+.raised-button{
+    -fx-background-color: #18146a;
+    -fx-text-fill: #edeef2;
+    -fx-pref-width: 100;
+}
+.wrong-credentials{
+    -jfx-unfocus-color: #C73025;
+    -jfx-focus-color: #C73025;
+    -fx-prompt-text-fill: #C73025;
+}
+
+
+
+/*Second - Startscreen*/
+.menu-bar{
+    -fx-base: #18146a;
+    -fx-selection-bar: #edeef2;
+}
+
+
+/*Tab Pane Style StartScreen*/
+.tab {
+    -fx-pref-width: 200;
+    -fx-pref-height: 50;
+}
+.starttab{
+    -fx-pref-width: 20;
+    -fx-pref-height: 50;
+}
+
+.tab-header-background {
+    -fx-background-color: #18146a;
+}
+.jfx-tab-pane {
+    -fx-background-color: #edeef2;
+}
+.headers-region{
+    -fx-background-color: #18146a;
+    -fx-text-fill: #edeef2;
+}
+.tab-label{
+    -fx-text-fill: #edeef2;
+    -fx-font-size: 14pt;
+}
+.tab-selected-line {
+    -fx-background-color: #edeef2;
+    -fx-stroke-width: 10pt;
+
+}
+
+
